@@ -1,0 +1,18 @@
+:root{
+    --BG-color:#12141A;
+    --aside-color:#1C1F26;
+    --primary-text-color:#FFCC22;
+    --secundary-text-color:#FFFFFF;
+    --texto-general:3rem;
+   
+
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 10px;
+}
+
