@@ -15,41 +15,48 @@
 html{
     font-size: 62.5%;
     box-sizing: border-box;
+
 }
 
 
 body{
     font-size: 10px;
     background-color: var(--BG-color);
+    
+    margin:0;
+    padding:0;
 }
-.main{
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-}
+
 .nav{
     display: flex;
     
 }
 .main__nav{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 30rem;
+    justify-content: space-evenly;
+   background-color: var(--secundary-color);
+    padding-bottom: 1rem;
+    
 }
+.main__link{
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-size: 2rem;
+    font-family: "Montserrat";
+    margin-top: 2rem;
+    font-family: "Staatliches";
+}
+
 .main__header{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:center;
+    background-color: var(--secundary-color);
+    
 }
 .main__title{
-    color: var(--primary-text-color);
+    color:#ffffff;
     font-family: "Staatliches";
-    margin-left: 20rem;
+    
     font-size: 4rem;
-}
-.main__img{
-    width: 15rem;
-    height: 10rem;
-    border-radius: 50%;
-    margin-left: 30rem;
 }
 
