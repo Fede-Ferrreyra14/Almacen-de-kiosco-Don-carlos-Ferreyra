@@ -1,0 +1,57 @@
+@import "main.css";
+
+
+.catalog__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    background-color: var(--secundary-color);
+    border-color:none;
+    border-radius: 30px;
+    width: 35rem;
+    height: 38.8rem;
+}
+.catalog__item--border{
+    border: 0.5px solid #FFF;
+}
+
+.catalog__image--layout{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 30px;
+    margin-top:0.5rem;
+}
+
+
+
+.catalog__name-product--styles{
+    font-family: "Staatliches";
+    font-size: 2.5rem;
+    color:var(--primary-text-color);
+    
+}
+.catalog__price-product{
+    font-family: "Staatliches";
+    font-size: 2.5rem;
+    color:var(--primary-text-color);
+    
+}
+
+.catalog__button--style{
+    background-color:var(--BG-color);
+    color: var(--primary-text-color);
+    border:none;
+    font-family:"Staatliches";
+    font-size: 3rem;
+    width: 31rem;
+    height: 7rem;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+     transition: transform 0.2s ease;
+}
+
+.catalog__button--style:hover{
+    transform: scale(1.1);
+}
