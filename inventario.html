@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/inventario.css">
+    <title>Inventario - Almacén Ferreyra</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1 class="header__title">Almacén Ferreyra</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="#" class="nav__link nav__link--active">Inventario</a>
+        <a href="#" class="nav__link">Historial de compras</a>
+        <a href="#" class="nav__link">Filtro por precio</a>
+    </nav>
+
+    <!-- Inventory Section -->
+    <section class="inventory">
+        <h2 class="inventory__header">INVENTARIO</h2>
+        
+        <div class="inventory__table">
+            <!-- Header Row -->
+            <div class="inventory__row inventory__row--header">
+                <div class="inventory__cell inventory__cell--header">ID</div>
+                <div class="inventory__cell inventory__cell--header">Nombre</div>
+                <div class="inventory__cell inventory__cell--header">Precio</div>
+                <div class="inventory__cell inventory__cell--header">Cantidad</div>
+                <div class="inventory__cell inventory__cell--header">Marca</div>
+                <div class="inventory__cell inventory__cell--header">Imagen</div>
+            </div>
+
+            <!-- Sample Product Row -->
+            <div class="inventory__row">
+                <div class="inventory__cell" data-label="ID">1</div>
+                <div class="inventory__cell" data-label="Nombre">Gaseosa</div>
+                <div class="inventory__cell" data-label="Precio">$4800</div>
+                <div class="inventory__cell" data-label="Cantidad">50</div>
+                <div class="inventory__cell" data-label="Marca">Coca Cola</div>
+                <div class="inventory__cell" data-label="Imagen">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50'%3E%3Crect fill='%23ef4444' width='50' height='50' rx='8'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dy='.3em'%3E🥤%3C/text%3E%3C/svg%3E" alt="Producto" class="inventory__image">
+                </div>
+            </div>
+
+            <!-- Additional Sample Rows -->
+            <div class="inventory__row">
+                <div class="inventory__cell" data-label="ID">2</div>
+                <div class="inventory__cell" data-label="Nombre">Agua Mineral</div>
+                <div class="inventory__cell" data-label="Precio">$2500</div>
+                <div class="inventory__cell" data-label="Cantidad">120</div>
+                <div class="inventory__cell" data-label="Marca">Villavicencio</div>
+                <div class="inventory__cell" data-label="Imagen">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50'%3E%3Crect fill='%233b82f6' width='50' height='50' rx='8'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dy='.3em'%3E💧%3C/text%3E%3C/svg%3E" alt="Producto" class="inventory__image">
+                </div>
+            </div>
+
+            <div class="inventory__row">
+                <div class="inventory__cell" data-label="ID">3</div>
+                <div class="inventory__cell" data-label="Nombre">Cerveza</div>
+                <div class="inventory__cell" data-label="Precio">$3200</div>
+                <div class="inventory__cell" data-label="Cantidad">75</div>
+                <div class="inventory__cell" data-label="Marca">Quilmes</div>
+                <div class="inventory__cell" data-label="Imagen">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50'%3E%3Crect fill='%23fbbf24' width='50' height='50' rx='8'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dy='.3em'%3E🍺%3C/text%3E%3C/svg%3E" alt="Producto" class="inventory__image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Action Buttons -->
+    <div class="buttons">
+        <button class="button button--add">Agregar Producto</button>
+        <button class="button button--modify">Modificar Producto</button>
+        <button class="button button--delete">Quitar Producto</button>
+    </div>
+</body>
+</html>
