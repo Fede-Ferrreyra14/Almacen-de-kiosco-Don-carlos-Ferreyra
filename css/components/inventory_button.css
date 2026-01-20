@@ -7,13 +7,17 @@
     --button-modified-color:#3B82F6;
     --button-remove-color:#EF4444;
 }
-
-.inventory{
+body{
+    font-family: "Staatliches";
+    color: var(--primary-text-color);
+}
+.inventory__items{
     background-color: var(--BG-color);
     width: 50rem;
     height: 50rem;
     border-radius: 30px;
     overflow: auto;
+    border:0.5px solid #fff;
 }
 
 .inventory__header--layout{
@@ -56,7 +60,9 @@
 .inventory__label{
     font-size: 2.5rem;
     margin-left: 15rem;
+    
 }
+
 .inventory__input--style{
     border:none;
     background-color: var(--secundary-color);
@@ -67,7 +73,10 @@
       border: 0.1px solid #FFF;
     
 }
-
+.inventory__input--style::placeholder{
+    color: #fff;
+    font-family: "Staatliches";
+}
 .inventory__field--img{
     margin-top:2rem;
     margin-left: 3rem;
