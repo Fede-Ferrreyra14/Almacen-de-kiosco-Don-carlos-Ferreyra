@@ -3,31 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="preload" href="css/normalize.css">
+    <!-- Estilos globales -->
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preload" href="css/main.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/globals.css">
     <title>Almacén Don Carlos Ferreyra</title>
 </head>
 <body>
-    <!-- BLOQUE: main -->
-    <main class="main">
-        
-        <!-- ELEMENTO: main__header -->
-        <div class="main__header">
-            <h1 class="main__title">Almacén Ferreyra</h1>
-        </div>
-        
-        <!-- ELEMENTO: main__nav -->
-        <nav class="main__nav">
-            <a class="main__nav-link" href="inventario.html">Inventario</a>
-            <a class="main__nav-link" href="historial.html">Historial de compras</a>
-            <a class="main__nav-link" href="filtros.html">Filtros por precio</a>
-        </nav>
-        
-    </main>
+    <!-- BLOQUE: header -->
+    <header class="header">
+        <h1 class="header__title">Almacén Ferreyra</h1>
+    </header>
+    
+    <!-- BLOQUE: nav -->
+    <nav class="nav">
+        <a class="nav__link nav__link--active" href="index.html">Inicio</a>
+        <a class="nav__link" href="inventario.html">Inventario</a>
+        <a class="nav__link" href="historial.html">Historial de compras</a>
+        <a class="nav__link" href="filtros.html">Filtros por precio</a>
+    </nav>
+    
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Aquí irá el contenido dinámico -->
+    </div>
 </body>
 </html>
